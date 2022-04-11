@@ -1,0 +1,271 @@
+/* signika-300 - latin */
+@font-face {
+  font-family: "Signika";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("../fonts/signika-v18-latin-300.woff2") format("woff2"), url("../fonts/signika-v18-latin-300.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* signika-regular - latin */
+@font-face {
+  font-family: "Signika";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/signika-v18-latin-regular.woff2") format("woff2"), url("../fonts/signika-v18-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* signika-500 - latin */
+@font-face {
+  font-family: "Signika";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/signika-v18-latin-500.woff2") format("woff2"), url("../fonts/signika-v18-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* signika-600 - latin */
+@font-face {
+  font-family: "Signika";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/signika-v18-latin-600.woff2") format("woff2"), url("../fonts/signika-v18-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* signika-700 - latin */
+@font-face {
+  font-family: "Signika";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/signika-v18-latin-700.woff2") format("woff2"), url("../fonts/signika-v18-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Signika";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #260041;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+/*  Header styles start*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__item {
+  margin-right: 50px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+.header__item:first-child {
+  font-weight: 500;
+  color: #4A99D3;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 19px;
+  color: #0F001A;
+  text-decoration: none;
+}
+.header__link:hover,
+.header__link :focus,
+.header__link :active {
+  opacity: 0.5;
+}
+
+/* Header styles end*/
+/* Intro styles start*/
+.intro {
+  min-height: 100vh;
+  background: url(../img/intro_bg.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 233px;
+}
+
+.intro__title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  color: #260041;
+  max-width: 500px;
+  margin-bottom: 14px;
+}
+
+.intro__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  max-width: 550px;
+  color: #260041;
+  margin-bottom: 60px;
+}
+
+.intro__button {
+  width: 180px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.intro__button-apple {
+  background: url(../img/Group\ 52.jpg) no-repeat bottom left;
+}
+
+.intro__button-google {
+  background: url(../img/Group\ 51.jpg) no-repeat bottom left;
+  margin-right: 20px;
+}
+
+.intro__picture {
+  position: absolute;
+  background: url(../img/svg/Mockup.svg) no-repeat;
+  left: 913px;
+  top: 158px;
+  width: 441px;
+  height: 534.78px;
+  margin-left: 80px;
+}
+
+/* Intro styles end*/
+/* Blocks Styles start */
+.blocks__cards {
+  width: 950px;
+  height: 1175px;
+  background-color: white;
+  position: relative;
+}
+
+.blocks__title {
+  color: white;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #260041;
+  max-width: 380px;
+}
+
+.blocks__card1 {
+  position: absolute;
+  width: 380px;
+  height: 525px;
+  left: 570px;
+  top: 12px;
+  background-color: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: 10px;
+}
+
+.blocks__card2 {
+  position: absolute;
+  width: 380px;
+  height: 525px;
+  top: 308px;
+  left: 85px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: 10px;
+}
+
+.blocks__card3 {
+  position: absolute;
+  width: 380px;
+  height: 525px;
+  top: 650px;
+  left: 570px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: 10px;
+}
+
+.blocks__card__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #0F001A;
+  position: absolute;
+  width: 54px;
+  height: 30px;
+  left: 48px;
+  top: 246px;
+}
+
+.blocks__card__p {
+  position: absolute;
+  width: 284px;
+  height: 103px;
+  top: 292px;
+  left: 48px;
+}
+
+.blocks__card1__picture {
+  background-image: url(..//img/svg/block_1.svg);
+  position: absolute;
+  width: 250px;
+  height: 197px;
+  left: 65px;
+  bottom: 350px;
+}
+
+.blocks__card2__picture {
+  background-image: url(..//img/svg/block_2.svg);
+  position: absolute;
+  width: 202px;
+  height: 132px;
+  top: 48px;
+  left: 60px;
+}
+
+.blocks__card3__picture {
+  background-image: url(..//img/svg/block_3.svg);
+  position: absolute;
+  width: 170px;
+  height: 131px;
+  top: 49px;
+  right: 124px;
+}
+
+.dots {
+  background: url(..//img/svg/Group\ 72.svg);
+  position: absolute;
+  width: 153.44px;
+  height: 153.44px;
+  left: 1160px;
+}
+
+/* Blocks Styles end *//*# sourceMappingURL=style.css.map */
